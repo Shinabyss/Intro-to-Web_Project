@@ -1,0 +1,17 @@
+References
+
+http://css3.bradshawenterprises.com/cfimg/
+
+http://code.jquery.com/jquery-1.9.1.min.js
+
+https://www.w3schools.com/howto/howto_css_dropdown.asp
+
+https://myanimelist.net/manga/82593/The_New_Gate?q=the%20new
+
+https://shintranslations.com/the-new-gate-toc/
+
+https://oniichanyamete.wordpress.com/2014/11/29/the-new-gate-volume-1-13/
+
+https://www.w3schools.com/howto/howto_js_dropdown.asp
+
+https://github.com/andywer/jquery-dim-background

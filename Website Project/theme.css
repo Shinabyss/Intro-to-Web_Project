@@ -1,0 +1,199 @@
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #933;
+	clear: both;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body {
+	background-image: url("images/Background/background_image.jpg");
+	margin:auto;
+	width: 80%;
+}
+
+article {
+	clear: both;
+	background-color: #333;
+	color: white;
+	padding: 20x;
+}
+
+.leftLinks {
+  position: absolute;
+  float: left;
+  background-color: #333;
+  color: red;
+}
+
+.rightLinks {;
+  position: relative;
+  float:right;
+  background-color: #333;
+  color: red;
+  
+}
+
+a.rightLinks:visited {
+	color: pink;
+}
+
+a.rightLinks:hover {
+	color: yellow;
+}
+
+.pagetitle {
+	float:center;
+	color:white;
+	margin-top:0px;
+	background-image: url("images/Background/sword.jpg");
+	background-size: cover;
+	background-position: center center;
+	padding-bottom:25px;
+	padding-top:25px;
+	margin-bottom:0;
+}
+
+p#cf7_controls {
+
+margin-top: 160px;
+
+text-align:center;
+
+}
+
+#cf7_controls span {
+
+padding-right:2em;
+
+cursor:pointer;
+
+color:red;
+
+}
+
+#cf7 {
+
+position:relative;
+
+height:281px;
+
+width:450px;
+
+margin:0 auto 10px;
+
+}
+
+#cf7 img {
+	
+margin-top: 150px;
+
+position:absolute;
+
+left:0;
+
+-webkit-transition: opacity 1s ease-in-out;
+
+-moz-transition: opacity 1s ease-in-out;
+
+-o-transition: opacity 1s ease-in-out;
+
+transition: opacity 1s ease-in-out;
+
+opacity:0;
+
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
+filter: alpha(opacity=0);
+
+height: 500px;
+
+}
+
+#cf7 img.opaque {
+
+opacity:1;
+
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+
+filter: alpha(opacity=1);
+
+}
+
+#pad {
+	height: 120px;
+	position:relative;
+}
+
+.selected {
+	font-weight:bold;
+	font-style:italic;
+}
+
+.header {
+	position: fixed;
+	z-index: 99;
+	width: 80%;
+	
+}
+
+.noscriimage {
+	margin-top: 150px;
+	width: 300px;
+}
+
+a.reflink:link{
+	color:red;
+}
+
+a.reflink:visited{
+	color:pink;
+}
+
+a.reflink:hover{
+	color:yellow;
+}
